@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "gg-sans";
+  src: url("/assets/fonts/gg-sans-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "gg-sans";
+  src: url("/assets/fonts/gg-sans-medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "gg-sans";
+  src: url("/assets/fonts/gg-sans-semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "gg-sans";
+  src: url("/assets/fonts/gg-sans-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  font-family: "gg-sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(43, 45, 49, 1);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(26, 27, 30, 1);
+  border-radius: 8px;
+}
+
+.text-optimize {
+  text-rendering: optimizeLegibility;
+}
+
+.translate-z-0 {
+  transform: translateZ(0);
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+/* Color scrollbar-track: rgba(43, 45, 49, 1) */
+/* Color scrollbar-thumb: rgba(26, 27, 30, 1) */
+/* Width channel scrollbar: 5px */
